@@ -1,0 +1,254 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-image: url(../assets/images/image.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: black;
+	padding-top: 100px;
+	padding-bottom: 80px;
+	overflow-x: hidden;
+}
+
+.header__text {
+	font-family: "Pacifico", cursive;
+	color: white;
+	font-size: 28px;
+}
+
+.header__image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+
+.content {
+	background: white;
+	overflow-x: hidden;
+}
+
+.content__text {
+	font-family: "Pacifico", cursive;
+	color: #6c1e0a;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.content__image-col {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.content__image {
+	border-radius: 320px;
+	width: 320px;
+	height: 320px;
+	align-items: center;
+}
+
+.banner {
+	background: white;
+	max-width: 100%;
+	padding-bottom: 100px;
+	padding-top: 50px;
+	overflow-x: hidden;
+	text-align: center;
+}
+
+.banner__image {
+	width: 50%;
+}
+
+.footer-widget p {
+	margin-bottom: 27px;
+}
+
+p {
+	font-family: "Nunito", sans-serif;
+	font-size: 16px;
+	color: white;
+	line-height: 28px;
+}
+
+.dk-footer {
+	padding: 75px 0 0;
+	background-color: #3f0000;
+	position: relative;
+	z-index: 2;
+}
+
+.dk-footer .contact-us {
+	margin-top: 0;
+	margin-bottom: 30px;
+	padding-left: 80px;
+}
+
+.dk-footer .contact-us .contact-info {
+	margin-left: 50px;
+}
+
+.dk-footer .contact-us.contact-us-last {
+	margin-left: -80px;
+}
+
+.dk-footer .contact-icon i {
+	font-size: 24px;
+	top: -15px;
+	position: relative;
+	color: #ffffff;
+}
+
+.dk-footer-box-info {
+	position: absolute;
+	top: -122px;
+	background: #6c1e0a;
+	padding: 40px;
+	z-index: 2;
+	text-align: center;
+}
+
+.footer-social-link {
+	padding-top: 30px;
+	text-align: center;
+}
+
+.dk-footer-box-info .footer-social-link li {
+	display: inline-block;
+}
+
+.dk-footer-box-info .footer-social-link a i {
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	background: #000;
+	margin-right: 5px;
+	color: #fff;
+}
+
+.dk-footer-box-info .footer-social-link a i.fa-facebook {
+	background-color: #3b5998;
+}
+
+.dk-footer-box-info .footer-social-link a i.fa-twitter {
+	background-color: #55acee;
+}
+
+.dk-footer-box-info .footer-social-link a i.fa-youtube {
+	background-color: #ff0000;
+}
+
+.dk-footer-box-info .footer-social-link a i.fa-instagram {
+	background-color: #b7242a;
+}
+
+.footer-left-widget {
+	padding-left: 80px;
+}
+
+.footer-widget .section-heading {
+	margin-bottom: 35px;
+}
+
+.footer-widget h3 {
+	font-size: 24px;
+	color: #fff;
+	position: relative;
+	margin-bottom: 15px;
+	max-width: -webkit-fit-content;
+	max-width: -moz-fit-content;
+	max-width: fit-content;
+}
+
+.footer-widget ul {
+	width: 50%;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-widget li {
+	margin-bottom: 18px;
+}
+
+.footer-widget p {
+	margin-bottom: 27px;
+}
+
+.footer-widget a {
+	color: #878787;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.footer-widget a:hover {
+	color: #007bff;
+}
+
+.footer-widget:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.contact-us {
+	position: relative;
+	z-index: 2;
+	margin-top: 65px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.contact-icon {
+	position: absolute;
+}
+
+.contact-icon i {
+	font-size: 36px;
+	top: -5px;
+	position: relative;
+	color: #007bff;
+}
+
+.contact-info {
+	margin-left: 75px;
+	color: #fff;
+}
+
+.copyright {
+	padding: 28px 0;
+	margin-top: 55px;
+	background-color: #6c1e0a;
+	text-align: center;
+}
+
+.copyright span,
+.copyright a {
+	color: #fff;
+	-webkit-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
